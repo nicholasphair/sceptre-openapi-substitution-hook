@@ -35,6 +35,9 @@ hooks:
           <key>: <val>
 ```
 
+The substituer will look for strings in the form of `${<key>}` and replace them
+with `<val>`.
+
 ## Example
 
 ```yaml
@@ -48,6 +51,7 @@ hooks:
           foo: bar
           baz: qux
 ```
+
 
 
 [1]: https://github.com/aws-cloudformation/cloudformation-coverage-roadmap/issues/1233
