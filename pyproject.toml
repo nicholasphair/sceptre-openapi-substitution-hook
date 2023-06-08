@@ -20,7 +20,7 @@ classifiers = [
 ]
 
 [tool.poetry.plugins."sceptre.hooks"]
-"openapi_substituer" = "hook.openapi_substituer:OpenApiSubstituer"
+"openapi_substituter" = "hook.openapi_substituter:OpenApiSubstituter"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
