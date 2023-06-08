@@ -18,6 +18,9 @@ classifiers = [
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11"
 ]
+include = [
+  "LICENSE",
+]
 
 [tool.poetry.plugins."sceptre.hooks"]
 "openapi_substituter" = "hook.openapi_substituter:OpenApiSubstituter"
